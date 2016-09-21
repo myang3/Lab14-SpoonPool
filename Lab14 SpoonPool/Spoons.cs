@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace Lab14_SpoonPool
 {
-    class Program
+    public class Spoons
     {
         static void Main(string[] args)
         {
+            SpoonPool sp = new SpoonPool();
+            sp.release();
+            Console.ReadLine();
         }
     }
 }
